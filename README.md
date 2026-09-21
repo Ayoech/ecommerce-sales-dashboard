@@ -16,7 +16,7 @@ Which regions, discount tiers, and payment methods drive the majority of revenue
 * **Data Cleaning & Validation:** Performed comprehensive data cleaning including handling missing values, standardizing discount tier categories, and correcting entry anomalies (e.g., adjusting future-dated records from 2035 to 2025) to ensure full timeline consistency.
 
 ## Dashboard Layout
-![Dashboard Screenshot](screenshots/dashboard-overview.png)
+![Dashboard Screenshot](Screenshots/dashboard-overview.png)
 
 ## Interactive Features & Excel Tools
 * **Timeline Control:** Dynamic monthly slider filtering across sales periods.
