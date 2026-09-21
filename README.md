@@ -6,25 +6,29 @@ An interactive Excel dashboard analyzing ecommerce sales performance across regi
 Which regions, discount tiers, and payment methods drive the majority of revenue, and how did overall sales performance evolve between 2022 and 2025?
 
 ## Key Insights & Business Takeaways
-* **Regional Dominance:** The **West region** generated the highest total sales (~$1.35M), outperforming the **North region** (~$1.28M) and vastly exceeding the **East region** (~$1.21M)[cite: 2].
-* **Discount Tier Distribution:** The **High discount tier** represents the largest share of overall sales (over 35% of revenue based on the breakdown), followed by the **Low** and **Medium** tiers[cite: 2]. Revenue from the **No Discount** tier remains negligible[cite: 2].
-* **Massive Growth Surge (Late 2024 / Early 2025):** Monthly sales exploded from a historical baseline of **~$10,000–$20,000/month** (2022–2024) to peak between **$120,000–$150,000/month** in early 2025, primarily driven by high and medium discount promotion campaigns[cite: 2].
-* **Payment Preference:** Wallet transactions and Card payments represent the dominant share of high-volume sales periods compared to COD[cite: 2].
+* **Regional Dominance:** The **West region** generated the highest total sales (~$1.35M), outperforming the **North region** (~$1.28M) and exceeding the **East region** (~$1.21M).
+* **Discount Tier Distribution:** The **High discount tier** accounts for the largest share of overall sales, followed by the **Low** and **Medium** tiers, while the **No Discount** tier generated minimal revenue.
+* **Massive Growth Surge (Late 2024 / Early 2025):** Monthly sales increased sharply from a baseline of **~$10,000–$20,000/month** (2022–2024) to peak between **$120,000–$150,000/month** in early 2025, driven by promotional discount tiers.
+* **Payment Preference:** Wallet and Card transactions represent the dominant payment methods across high-volume sales periods compared to COD.
 
-## Data Summary
-* **Timeline Covered:** October 2022 – September 2025 (Monthly granularity)[cite: 2].
-* **Data Cleaning & Validation:** Corrected anomalous date entries (e.g., future-dated records in 2035 adjusted to 2025) to maintain timeline consistency, removed empty fields, and standardized discount tier categories[cite: 2].
+## Data & Cleaning Process
+* **Timeline Covered:** October 2022 – September 2025 (Monthly granularity).
+* **Data Cleaning & Validation:** Performed comprehensive data cleaning including handling missing values, standardizing discount tier categories, and correcting entry anomalies (e.g., adjusting future-dated records from 2035 to 2025) to ensure full timeline consistency.
 
 ## Dashboard Layout
-![Ecommerce Sales Dashboard](screenshots/dashboard-overview.png)
+![Dashboard Screenshot](screenshots/dashboard-overview.png)
 
 ## Interactive Features & Excel Tools
-* **Timeline Control:** Dynamic monthly slider filtering for periods between Oct 2024 and Sep 2026[cite: 2].
-* **Slicers:** Interactive filtering for **Payment Method** (`Card`, `COD`, `Wallet`) and **Discount Tier** (`High`, `Medium`, `Low`, `No Discount`)[cite: 2].
+* **Timeline Control:** Dynamic monthly slider filtering across sales periods.
+* **Slicers:** Interactive filtering for **Payment Method** (`Card`, `COD`, `Wallet`) and **Discount Tier** (`High`, `Medium`, `Low`, `No Discount`).
 * **PivotCharts & Visuals:**
-  * Multi-line trend graph tracking monthly sales volume across discount tiers[cite: 2].
-  * Proportional pie chart for discount tier revenue contribution[cite: 2].
-  * Horizontal bar chart ranking total sales by geographic region[cite: 2].
+  * Multi-line trend graph tracking monthly sales volume across discount tiers.
+  * Proportional pie chart for discount tier revenue contribution.
+  * Horizontal bar chart ranking total sales by geographic region.
+
+## Tools & Skills
+* **Excel:** PivotTables, PivotCharts, Slicers, Timeline controls, custom number formatting, dashboard design.
+* **Data Engineering & Analysis:** Data cleaning, data validation, trend analysis, categorical aggregation.
 
 ## File
-* [`ecommerce_sales_dashboard.xlsx`](ecommerce_sales_dashboard.xlsx) — Download to explore interactive filters and PivotTables[cite: 2].
+* [`dashboard.xlsx`](dashboard.xlsx) — Download to explore interactive filters and PivotTables yourself.
